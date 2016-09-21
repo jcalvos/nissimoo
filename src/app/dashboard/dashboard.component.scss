@@ -1,0 +1,24 @@
+@import "../shared/variables";
+
+.test{
+  color: red;
+  /* Extra small devices (tablets, 768px and up) */
+  @media (min-width: $extra-small-device) {
+    color: blue;
+  }
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: $small-device) {
+    color: blue;
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: $medium-device) {
+    color: green;
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: $large-device) {
+    color: yellow;
+  }
+}
