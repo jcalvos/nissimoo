@@ -4,7 +4,7 @@ import { Http, RequestOptions, Headers } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
 
 
-const nissimooUrl = 'http://localhost:3000';
+const nissimooUrl = 'https://nissimo-app.herokuapp.com';
 
 @Injectable()
 export class ShopifyService {
